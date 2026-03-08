@@ -81,6 +81,22 @@ Handles the simulation loop:
 4. If obstacle or wall → chooses randomly left or right, tries to move forward again.
 5. Updates state: `MOVING`, `AVOIDING`, or `FINISHED`.
 
+   ## Challenges
+- Robot may get stuck in blocked paths
+- FSM may take longer routes
+- Random obstacle avoidance can loop
+- Max steps must allow reaching goal
+
+---
+
+## Future Improvements
+- Implement **path planning** (BFS, DFS, A*, Dijkstra)
+- Multi-robot simulation & collision avoidance
+- Graphical interface (`pygame`/`tkinter`)
+- Range detection sensors
+- Learning-based adaptive decision-making
+- Dynamic obstacle updates
+
 **Note:**  
 - The robot may fail to reach the goal if obstacles create an unreachable path or if `max_steps` limit is too low.
 
