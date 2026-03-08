@@ -1,4 +1,4 @@
-# -
+منة الله عماد الغرة / 120220620
 VIRTUAL ROBOT PROGRAMMING
 1. Project Overview
 
@@ -125,13 +125,6 @@ Note:
 
 The robot may fail to reach the goal if obstacles create an unreachable path or if max_steps limit is too low.
 
-6. How to Run
-
-Copy the code into a Python environment (Google Colab, Jupyter, or local Python 3.x).
-
-Run the script:
-
-python virtual_robot.py
 
 The grid will print to the console each step:
 
@@ -142,6 +135,7 @@ R – Robot
 G – Goal
 
 . – Empty space
+
 
 Wait for the simulation to finish. The console will print:
 
@@ -156,6 +150,7 @@ Add/remove obstacles: Change env.grid[y][x] = CellType.OBSTACLE.
 Move goal: Change env.grid[y][x] = CellType.GOAL.
 
 Change robot starting position: Modify robot = Robot(x, y).
+
 
 8. Important Notes
 
