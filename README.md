@@ -97,7 +97,7 @@ Handles the simulation loop:
 - Learning-based adaptive decision-making
 - Dynamic obstacle updates
 
-**Note:**  
+**Note:*  
 - The robot may fail to reach the goal if obstacles create an unreachable path or if `max_steps` limit is too low.
 
 ---
